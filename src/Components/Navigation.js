@@ -14,13 +14,14 @@ function Navigation() {
         <body>
             <div className="container">
                 <div className="nav">
-                    <Navbar.Brand>
-                        <Link to="/" className="logo">3dkod</Link>
+                    
+                <Link to="/" className="logo"><img src={logo}/> </Link>
                         
-                    </Navbar.Brand>
+                                 
 
                     <Nav className="nav-inner">
-            
+                    
+
                         <NavLink eventKey="1" as={Link} id="link" activeClassName="plavo" exact to="/">POČETNA</NavLink>
                         <NavLink eventKey="1" as={Link}id="link" activeClassName="plavo"exact to="/kontakt">KONTAKT</NavLink>
                         <NavLink eventKey="1" as={Link}id="link" activeClassName="plavo"exact to="/cjenik">CJENIK</NavLink>
